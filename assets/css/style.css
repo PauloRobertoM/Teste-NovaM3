@@ -1,0 +1,615 @@
+* {
+    outline: none;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer!important;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.container {
+    max-width: 90%!important;
+    width: 100%;
+}
+
+
+/* --- TOPO --- */
+header {
+    position: relative;
+    height: 75px;
+    border-bottom: 1px solid #393a3a;
+}
+.navbar-collapse {
+    float: left;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+ul.nav.navbar-nav {
+    margin-left: -10px;
+    padding: 10px 0;
+}
+ul.nav.navbar-nav>li>a {
+    font-size: 16px;
+    color: #393a3a!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    bottom: 8px;
+    background: #393a3a;
+}
+.info {
+    float: right;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.info span {
+    font-size: 16px;
+    color: #393a3a;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.info span i.fa.fa-phone {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.info ul{
+    float: right;
+    margin-left: 40px;
+}
+.info ul>li {
+    float: left;
+    margin-left: 5px;
+}
+.info ul>li>a>i.fa {
+    font-size: 34px;
+    color: #393a3a;
+}
+
+
+/* --- VITRINE --- */
+.vitrine {
+    background: url('../images/vitrine.png') no-repeat;
+    width: 100%;
+    height: 960px;
+    margin-top: -75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vitrine .content {
+    text-align: center;
+}
+.vitrine p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #363636;
+    text-transform: uppercase;
+    margin: 25px 0;
+    text-align: left!important;
+}
+.vitrine span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #3667af;
+    float: left;
+}
+
+
+/* --- RESERVE --- */
+.reserve {
+    width: 100%;
+    height: 120px;
+    border-top: 1px solid #a2a2a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reserve .content {
+    margin-top: 40px;
+}
+.reserve form .calendario .fa {
+    margin-left: -26px;
+    font-size: 20px;
+}
+.reserva {
+    font-size: 24px;
+    font-weight: 800;
+    color: #70aee4;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+form {
+    float: right;
+    margin-top: -5px;
+}
+.agora {
+    color: #f79327;
+}
+.reserve i.fa.fa-calendar {
+    color: #3667af;
+}
+.calendario,
+.criancas {
+    font-size: 14px;
+    font-weight: bold;
+    color: #363636;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.calendario input {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #7c7c7c;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+.calendario.last {
+    margin-right: 15px;
+}
+.criancas {
+    float: right;
+}
+.criancas .button {
+  margin: 0 0 0 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 22px;
+  height: 21px;
+  text-align: center;
+  background: url(../images/buttons.png) no-repeat;
+}
+.numbers-row {
+    display: -webkit-inline-box;
+}
+.criancas .dec {
+  background-position: 0 -22px;
+}
+.criancas input {
+    width: 70px;
+    height: 40px;
+    border: 1px solid #7c7c7c;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+.geral {
+    float: right;
+    margin-left: -25px;
+    position: relative;
+    left: -3px;
+    top: -39px;
+}
+.inc.button {
+    border-top-right-radius: 4px;
+}
+.dec.button {
+    border-bottom-right-radius: 10px;
+}
+.botao {
+    float: right;
+    margin-left: 25px;
+}
+.botao button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f79327;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #f79327;
+}
+.botao button:hover {
+    color: #f79327;
+    background: #fff;
+}
+
+
+/* --- CONHECA --- */
+.conheca .fotorama__nav-wrap {
+    margin-top: -68px;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.fotorama__wrap,
+.fotorama__stage,
+.fotorama__stage__shaft,
+.fotorama img {
+    width: 100%!important;
+}
+.conheca .content img {
+    width: 100%;
+}
+.conheca .conteudo {
+    position: absolute;
+    top: 20%;
+    padding: 0 40px;
+}
+.conheca .conteudo h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.conheca .conteudo p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+/* --- ACOMODACOES --- */
+.acomodacoes .titulo {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acomodacoes .titulo h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #555351;
+}
+.titulo-painel {
+    height: 165px;
+    padding: 25px 60px;
+    cursor: pointer;
+}
+.titulo-painel h4 {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.titulo-painel p {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.titulo-painel .content {
+    width: 80%;
+    float: right;
+}
+.corpo-painel img {
+    width: 100%;
+}
+#showum,
+#showtres {
+    background: #73b2e7;
+    color: #555351;
+}
+#showdois {
+    background: #0b74b4;
+    color: #fff;
+}
+#showum:hover,
+#showtres:hover {
+    background: #0b74b4;
+}
+#showdois:hover {
+    background: #73b2e7;
+}
+
+
+/* --- GOSTOU --- */
+.gostou {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #555351;
+}
+.gostou .content {
+    text-align: center;
+}
+.gostou .content h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #555351;
+    margin-bottom: 60px;
+    letter-spacing: 10px;
+}
+.gostou .content a {
+    font-size: 22px;
+    font-weight: 800;
+    color: #555351;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: 2px solid #555351;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.gostou .content a:hover {
+    color: #fff;
+    background: #555351;
+}
+
+
+/* --- CERTIFICADOS -- */
+.certificados {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificados .content span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #555351;
+    text-transform: uppercase;
+    margin: 0 60px;
+}
+.certificados .content a.depoimentos {
+    font-size: 16px;
+    font-weight: 800;
+    color: #555351;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: 2px solid #555351;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.certificados .content a.depoimentos:hover {
+    color: #fff;
+    background: #555351;
+}
+
+
+/* --- LOCALIZACAO -- */
+.localizacao {
+    height: 500px;
+}
+
+
+/* --- FOOTER --- */
+.rodape1 {
+    width: 100%;
+    min-height: 80px;
+    background: #74b3e8;
+    display: flex;
+    align-items: center;
+}
+.rodape1 p {
+    font-size: 16px;
+    color: #27589e;
+}
+.rodape1 p .fa {
+    color: #fff;
+}
+.rodape1 img.cartoes {
+    margin-top: -10px;
+}
+.mt {
+    margin-top: 17px;
+}
+.rodape2 {
+    width: 100%;
+    min-height: 80px;
+    background: #386ab1;
+    display: flex;
+    align-items: center;
+}
+.rodape2 a {
+    float: right;
+}
+.rodape2 p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+
+
+/* --- MOBILE --- */
+@media (min-width: 768px) and (max-width: 1020px) {
+    ul.nav.navbar-nav {
+        margin-left: -15px;
+    }
+    ul.nav.navbar-nav>li>a {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .info {
+        margin-right: 5px;
+    }
+    .info span {
+        font-size: 12px;
+    }
+    .info ul {
+        margin-left: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1115px) {
+    span.reserva {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .calendario, .criancas {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .botao button {
+        font-size: 12px;
+        width: 100px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1250px) {
+    .conheca .conteudo {
+        top: 0;
+        padding: 0 20px;
+    }
+    .conheca .conteudo h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .conheca .conteudo p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1140px) {
+    .titulo-painel {
+        padding: 10px 5px;
+    }
+    .titulo-painel img {
+        width: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 970px) {
+    .certificados .content span {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    .certificados .content a.depoimentos {
+        font-size: 14px;
+        padding: 15px 20px;
+        border: 2px solid #555351;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 60px;
+        border-bottom: none;
+    }
+    .navbar-header {
+        float: left;
+    }
+    .info {
+        height: 60px;
+        margin-right: 10px;
+    }
+    .info span {
+        font-size: 12px;
+    }
+    .info span i.fa.fa-phone {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .info ul>li>a>i.fa {
+        font-size: 30px;
+    }
+    .vitrine {
+        height: 700px;
+    }
+    .vitrine .content {
+        width: 95%;
+    }
+    .vitrine .content img.logo {
+        width: 100%;
+    }
+    .vitrine p {
+        font-size: 21px;
+    }
+    .reserve {
+        min-height: 120px;
+        height: 100%;
+    }
+    .reserva {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .calendario,
+    .criancas {
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .calendario.last {
+        margin-right: 15px;
+    }
+    .calendario input {
+        width: 100%;
+    }
+    .botao {
+        margin-top: 110px;
+        margin-bottom: -123px;
+    }
+    span.criancas {
+        float: left;
+    }
+    .conheca .conteudo {
+        top: 0;
+        padding: 0 15px;
+    }
+    .conheca .conteudo h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .conheca .conteudo p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .acomodacoes .titulo h1 {
+        font-size: 38px;
+    }
+    .titulo-painel {
+        padding: 5px;
+    }
+    .titulo-painel img {
+        width: 60px;
+    }
+    .gostou .content h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .gostou .content a {
+        font-size: 20px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .certificados {
+        min-height: 100px;
+        height: 100%;
+        padding: 30px 0;
+    }
+    .certificados a {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .certificados .content span {
+        font-size: 16px;
+        display: block;
+        margin: 20px 0;
+    }
+    .rodape2 {
+        padding: 20px 0;
+    }
+}
